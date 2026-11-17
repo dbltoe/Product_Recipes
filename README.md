@@ -164,6 +164,8 @@ The admin message says why. The folder `images/recipes/` must be writable by the
 
 ## Support
 
+Questions and problem reports go to the Zen Cart forum support thread (https://www.zen-cart.com/threads/207509#post-1348069). Please include your Zen Cart and PHP versions.
+
 Source, issues and releases are on GitHub (https://github.com/dbltoe/Product_Recipes).
 
 ## Changelog

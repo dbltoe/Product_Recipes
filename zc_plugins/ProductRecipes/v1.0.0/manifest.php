@@ -32,7 +32,7 @@ $prGithubUrl = 'https://github.com/dbltoe/Product_Recipes';
  * 2.1 plugin_control.description is written only when Plugin Manager first sees the plugin. An
  * empty string renders no button.
  */
-$prForumUrl = '';
+$prForumUrl = 'https://www.zen-cart.com/threads/207509#post-1348069';
 
 /**
  * The Settings button: this plugin's Configuration page, shown only once the plugin is installed.
