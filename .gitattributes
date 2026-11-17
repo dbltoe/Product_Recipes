@@ -1,0 +1,14 @@
+# Line endings and file types.
+#
+# .editorconfig asks editors for LF; this asks git for the same, so a checkout on
+# Windows can't quietly turn a plugin file into CRLF and hand a store a file that
+# differs byte for byte from the one that was tested.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.zip binary

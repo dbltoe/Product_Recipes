@@ -1,0 +1,16 @@
+Product Recipes changelog
+
+v1.0.0 (unreleased)
+- First release.
+- Recipes page (index.php?main_page=recipes): paged index, cooking-method filter, one page per recipe.
+- Ingredients can link to products: live price and stock, product link, per-line Add to Cart and
+  "Add Checked to Cart", through Zen Cart's own cart. Products with options link to their product page.
+- Cooking methods Microwave, Bake and No Bake; rename, add, turn off or delete them. A recipe can have several.
+- Extras > Recipes: list, search, filter, add, edit, copy, delete, on/off; product finder; kitchen-fraction
+  amounts; picture upload to images/recipes/; HTML editor for the steps; one box per language (a
+  language added later gets a copy of the text to translate).
+- A deleted product's ingredient lines keep its name as plain text.
+- Recipes sidebox; Recipes link in the Information sidebox on Zen Cart 2.0.0 and later.
+- Page title and description per recipe; print-friendly recipe pages.
+- Notifiers for other plugins (see docs/CUSTOMIZING.md).
+- Zen Cart 1.5.8 through 3.0.0, PHP 7.4 through 8.5; no core or template file changed.
