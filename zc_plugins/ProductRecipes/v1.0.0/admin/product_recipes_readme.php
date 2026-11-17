@@ -138,7 +138,7 @@ if (!function_exists('product_recipes_markdown_html')) {
             }
             if (preg_match('/^-\s+(.+)$/', $line, $m) || preg_match('/^\d+\.\s+(.+)$/', $line, $m2)) {
                 $type = isset($m[1]) ? 'ul' : 'ol';
-                $text = isset($m[1]) ? $m[1] : $m2[1];
+                $text = $m[1] ?? $m2[1];
                 if ($list !== $type || $table !== []) {
                     $flush();
                     $list = $type;
