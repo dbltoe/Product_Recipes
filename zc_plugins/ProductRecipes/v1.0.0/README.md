@@ -168,6 +168,13 @@ Questions and problem reports go to the Zen Cart forum support thread (https://w
 
 Source, issues and releases are on GitHub (https://github.com/dbltoe/Product_Recipes).
 
+## Donations
+
+This plugin is free. If it has saved you time or money, a donation is always welcome.
+
+- Donate to JEANDRET, who maintains this plugin: https://myzencartzone.com/index.php?main_page=page&id=215
+- Donate to Zen Cart, the free, open-source software this plugin runs on: https://www.zen-cart.com/donate
+
 ## Changelog
 
 See `CHANGELOG.md`. Version 1.0.0 is the first release.
